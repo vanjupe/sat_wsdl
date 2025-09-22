@@ -71,6 +71,9 @@
                     <wsdlFiles>
                         <wsdlFile>${basedir}/src/main/resources/consultacfdiservice.wsdl.xml</wsdlFile>
                     </wsdlFiles>
+
+                    <!-- Esta propiedad controla lo que se inyecta en @WebServiceClient -->
+                    <wsdlLocation>/home/appbuild/Bld/sat_wsdl/src/main/resources/consultacfdiservice.wsdl.xml</wsdlLocation>
                 </configuration>
             </plugin>
             <plugin>

@@ -73,7 +73,7 @@
                     </wsdlFiles>
 
                     <!-- Esta propiedad controla lo que se inyecta en @WebServiceClient -->
-                    <wsdlLocation>/home/sysdocker/Bld/sat_wsdl/src/main/resources/consultacfdiservice.wsdl.xml</wsdlLocation>
+                    <wsdlLocation>/home/apptomcat/Bld/sat_wsdl/src/main/resources/META-INF/wsdl/consultacfdiservice.wsdl.xml</wsdlLocation>
                 </configuration>
             </plugin>
             <plugin>
